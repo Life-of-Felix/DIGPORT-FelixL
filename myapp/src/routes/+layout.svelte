@@ -4,25 +4,36 @@
 </script>
 
 <div class="app">
-	<Header />
+	<header>
+		<Header />
+	</header>
+	
 
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Work in pogress</p>
 	</footer>
 </div>
 
 <style>
 	.app {
-		display: flex;
-		flex-direction: column;
+		
+		display: grid;
+		grid-template-columns: 1fr 6fr;
+		grid-template-areas: 
+		"na ma"
+		"na fo"
+		;
 		min-height: 100vh;
 	}
-
+	header{
+		grid-area: na;
+	}
 	main {
+		grid-area: ma;
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -34,15 +45,13 @@
 	}
 
 	footer {
+		grid-area: fo;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
+		background-color: blueviolet;
 	}
 
 	@media (min-width: 480px) {
