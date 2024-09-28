@@ -28,7 +28,15 @@
 	header {
 		display: flex;
 		justify-content: space-between;
-		background-color: blue;
+		background-image: url("/src/lib/images/background.png");
+		background-size: 100rem;
+		background-position: center;
+		background-blend-mode: hard-light;
+		background-color: var(--felixPurple);
 		height: 100%;
+	}
+	a{
+		color: white;
+		font-size: 1.5rem;
 	}
 </style>

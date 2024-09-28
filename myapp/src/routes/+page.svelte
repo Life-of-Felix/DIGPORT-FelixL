@@ -7,27 +7,49 @@
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
+<!-- The job in mind -->
+<!-- https://jobs.opera.com/p/6c09a732ee97-product-designer  -->
+ <div class="wrap">
+	<section id="landImage">
+		<img src="/src/lib/images/pH.png" alt="portret">
+	</section>
+	<section id="operaText">
+		<h1>Hej Opera,</h1>
+		<p> Mitt namn är Felix Lindblom och här är lite om mig</p>
+	</section>
+ </div>
 
-<section>
-	<img src="/src/lib/images/felixLindblomLogo.svg" alt="portret">
-</section>
-<section>
-	<h1>Hej Grace,</h1>
-	<p>Mitt namn är Felix Lindblom och här är lite om mig</p>
-</section>
 
 <style>
-	section {
+	img{
+		width: 20rem;
+	}
+	.wrap{
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(4, 1fr); 
+		grid-template-areas: 
+		"te te te  .  .  . "
+		".  .  .  im im im "
+		".  .  .  im im im "
+		".  .  .  .  .  . "
+		;
+	}
+	#landImage{
+		grid-area: im;
+	}
+	#landImage img{
+		
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+	#operaText{
+		grid-area: te;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
+		align-items: start;
+		margin: 0%;
 	}
-
-	h1 {
-		width: 100%;
-	}
-
 	
 </style>
