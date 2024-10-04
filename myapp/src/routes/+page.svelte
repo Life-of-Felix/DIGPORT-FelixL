@@ -14,8 +14,8 @@
 		<img src="/src/lib/images/pH.png" alt="portret">
 	</section>
 	<section id="operaText">
-		<h1>Hej Opera,</h1>
-		<p> Mitt namn är Felix Lindblom och här är lite om mig</p>
+		<h1>Hej Opera</h1>
+		<p> My name is Felix Lindblom and here is my portfolio</p>
 	</section>
  </div>
 

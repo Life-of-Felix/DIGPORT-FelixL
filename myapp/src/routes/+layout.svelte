@@ -51,7 +51,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
-		background-color: blueviolet;
+		background-color: var(--felixPurple);
 	}
 
 	@media (min-width: 480px) {

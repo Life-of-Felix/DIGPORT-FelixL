@@ -35,8 +35,33 @@
 		background-color: var(--felixPurple);
 		height: 100%;
 	}
+	ul{
+		list-style: none;
+		padding: 0%;
+	}
+	nav{
+		width: 100%;
+	}
+	ul li{
+		margin: 5% 0%;
+	}
 	a{
-		color: white;
+		color: var(--felixWhite);
 		font-size: 1.5rem;
+		box-shadow: var(--felixWhite) 0rem 0rem inset;
+		display: inline-block;    
+		padding: 5% 0%;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.2);  
+		backdrop-filter: blur(.15rem); 
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		border-top: .1rem rgba(255, 255, 255, 0.2) solid;
+		text-align: center;
+		text-decoration: none;
+		letter-spacing: .2rem;
+	}
+	a:hover{
+		background: rgba(0, 0, 0, 0.1);  
+		transition: .2s ease-in-out;
 	}
 </style>
