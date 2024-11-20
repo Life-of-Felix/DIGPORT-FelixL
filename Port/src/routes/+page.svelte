@@ -13,7 +13,7 @@
 	<section id="landImage">
 		<img src="/src/lib/images/placeholderFelix.png"  alt="portret">
 	</section>
-	<h1 id="hej">Hej Opera</h1>
+	<h1 id="hej">Hej Experis</h1>
 	<section id="shortDec">
 		<p>I'm a front end devloper and educated myself at Jönköping Univirsty and FHNW in Swisserland. Technical, creactive and team motivted. I'm looking for your postion of Ux designer</p>
 	</section>
