@@ -23,8 +23,7 @@
 		<li>
 			<h1>Career smart skills test</h1>
 			<h3>The PDF</h3>
-			<!-- add pdf here -->
-			<a href="/src/lib/docs/CareerTest.pdf">Press here to download</a>
+			<a href="docs/CareerTest.pdf">Press here to download</a>
 			<h2>Reflection</h2>
 			<p>I often see myself and as well receive feedback from others of me being the “glue” of the group. The results from this test seem to reinforce that perspective, and I consider it an important skill to develop further. Being the glue of the group to me, means helping everyone achieve a better and clearer understanding of the goals. Skills such as “not being defensive when others don’t agree” are crucial, as a poor group dynamic can lead to confusion and make implementing new ideas difficult. I know I like to make my voice heard, but just as important is understanding others’ perspectives. I see this as a highly desirable skill because it allows a team to develop with multiple perspectives and clarity. Of course not every time every one opinion can be used but then the importance of “Negotiating a win-win result” becomes more crucial. </p>
 			<p>Although I often take on a leadership role when things are unclear, it’s not something I actively seek out it just tends to happen naturally. I feel confident in my ability to lead, but I prefer focusing on working with a team because I believe great leaders emerge from strong teams, rather than strong leaders creating great teams. According to the test results, leadership was a lower priority area for me, which makes sense, as I see myself prioritizing collaboration over directing.</p>

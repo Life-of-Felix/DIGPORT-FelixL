@@ -12,6 +12,7 @@
 <!-- https://jobs.opera.com/p/6c09a732ee97-product-designer  -->
  <div class="wrap">
 	<section id="landImage">
+		
 		<img src="images/placeholderFelix.png" alt="portrait">	
 	</section>
 	<h1 id="hej">Hej Experis</h1>
