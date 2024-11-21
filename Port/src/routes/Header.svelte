@@ -28,7 +28,7 @@
 	header {
 		display: flex;
 		justify-content: space-between;
-		background-image: url("/src/lib/images/background2.png");
+		background-image: url("/images/background2.png");
 		background-size: 10rem;
 		background-position: center;
 		background-blend-mode: hard-light;

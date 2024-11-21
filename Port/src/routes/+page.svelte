@@ -1,6 +1,7 @@
 <script>
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	
 </script>
 
 <svelte:head>
@@ -11,7 +12,7 @@
 <!-- https://jobs.opera.com/p/6c09a732ee97-product-designer  -->
  <div class="wrap">
 	<section id="landImage">
-		<img src="/src/lib/images/placeholderFelix.png"  alt="portret">
+		<img src="images/placeholderFelix.png" alt="portrait">	
 	</section>
 	<h1 id="hej">Hej Experis</h1>
 	<section id="shortDec">
