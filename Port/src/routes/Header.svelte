@@ -16,6 +16,9 @@
 			<li aria-current={$page.url.pathname === '/cv' ? 'page' : undefined}>
 				<a href="/cv">cv</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
+				<a href="/projects">Projects</a>
+			</li>
 			<li>
 				<a href="https://github.com/Life-of-Felix?tab=repositories">Github</a>
 			</li>
@@ -28,7 +31,7 @@
 	header {
 		display: flex;
 		justify-content: space-between;
-		background-image: url("images/background2.png");
+		background-image: url("/images/background2.png");
 		background-size: 10rem;
 		background-position: center;
 		background-blend-mode: hard-light;
